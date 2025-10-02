@@ -1,0 +1,10 @@
+# ninja log v6
+2	38	7811481132001290	C:/Users/Trey/Tablebound/MIT-Engine-demo/cmake-build-debug/CMakeFiles/cmake.verify_globs	477ddfa5fc5b10cd
+39	131	7811481031372492	CMakeFiles/MIT_Engine_demo.dir/main.cpp.obj	7171286a24fa357f
+131	286	7811481032295867	MIT_Engine_demo.exe	31960b8452e9a373
+2	26	7811481319107948	C:/Users/Trey/Tablebound/MIT-Engine-demo/cmake-build-debug/CMakeFiles/cmake.verify_globs	76d7ca5635f18995
+29	177	7811481319377945	MIT_Engine_demo.exe	1bba3fe58762d10e
+2	26	7811481789061696	C:/Users/Trey/Tablebound/MIT-Engine-demo/cmake-build-debug/CMakeFiles/cmake.verify_globs	76d7ca5635f18995
+28	119	7811481789315183	CMakeFiles/MIT_Engine_demo.dir/main.cpp.obj	7171286a24fa357f
+120	253	7811481790237839	MIT_Engine_demo.exe	1bba3fe58762d10e
+2	26	7811481804243186	C:/Users/Trey/Tablebound/MIT-Engine-demo/cmake-build-debug/CMakeFiles/cmake.verify_globs	76d7ca5635f18995
