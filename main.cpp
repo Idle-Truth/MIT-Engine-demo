@@ -1,10 +1,12 @@
 //
 // Created by Trey on 10/2/2025.
 //
-#include <stdio.h>
-
+#include <../platforms/IGraphicsAPI.h>
+#include <vulkan/vulkan.h>
 
 int main() {
-    
+    VulkanAPI vulkan;
+    vulkan.run();
+
     return 0;
 }

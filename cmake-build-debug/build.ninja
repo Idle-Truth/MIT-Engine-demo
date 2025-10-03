@@ -53,9 +53,33 @@ build CMakeFiles/MIT_Engine_demo.dir/main.cpp.obj: CXX_COMPILER__MIT_Engine_demo
   CONFIG = Debug
   DEP_FILE = CMakeFiles\MIT_Engine_demo.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic
-  INCLUDES = -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/glfw-3.4/include -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/glm -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/OpenXR-SDK/include -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor -IC:/VulkanSDK/1.4.321.1/Include
+  INCLUDES = -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/glfw-3.4/include -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/glm -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/OpenXR-SDK/include -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor -IC:/Users/Trey/Tablebound/MIT-Engine-demo/platforms -IC:/VulkanSDK/1.4.321.1/Include
   OBJECT_DIR = CMakeFiles\MIT_Engine_demo.dir
   OBJECT_FILE_DIR = CMakeFiles\MIT_Engine_demo.dir
+
+build CMakeFiles/MIT_Engine_demo.dir/platforms/VulkanAPI.cpp.obj: CXX_COMPILER__MIT_Engine_demo_unscanned_Debug C$:/Users/Trey/Tablebound/MIT-Engine-demo/platforms/VulkanAPI.cpp || cmake_object_order_depends_target_MIT_Engine_demo
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\MIT_Engine_demo.dir\platforms\VulkanAPI.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic
+  INCLUDES = -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/glfw-3.4/include -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/glm -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/OpenXR-SDK/include -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor -IC:/Users/Trey/Tablebound/MIT-Engine-demo/platforms -IC:/VulkanSDK/1.4.321.1/Include
+  OBJECT_DIR = CMakeFiles\MIT_Engine_demo.dir
+  OBJECT_FILE_DIR = CMakeFiles\MIT_Engine_demo.dir\platforms
+
+build CMakeFiles/MIT_Engine_demo.dir/platforms/MetalAPI.cpp.obj: CXX_COMPILER__MIT_Engine_demo_unscanned_Debug C$:/Users/Trey/Tablebound/MIT-Engine-demo/platforms/MetalAPI.cpp || cmake_object_order_depends_target_MIT_Engine_demo
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\MIT_Engine_demo.dir\platforms\MetalAPI.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic
+  INCLUDES = -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/glfw-3.4/include -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/glm -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/OpenXR-SDK/include -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor -IC:/Users/Trey/Tablebound/MIT-Engine-demo/platforms -IC:/VulkanSDK/1.4.321.1/Include
+  OBJECT_DIR = CMakeFiles\MIT_Engine_demo.dir
+  OBJECT_FILE_DIR = CMakeFiles\MIT_Engine_demo.dir\platforms
+
+build CMakeFiles/MIT_Engine_demo.dir/platforms/DirectXAPI.cpp.obj: CXX_COMPILER__MIT_Engine_demo_unscanned_Debug C$:/Users/Trey/Tablebound/MIT-Engine-demo/platforms/DirectXAPI.cpp || cmake_object_order_depends_target_MIT_Engine_demo
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\MIT_Engine_demo.dir\platforms\DirectXAPI.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic
+  INCLUDES = -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/glfw-3.4/include -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/glm -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/OpenXR-SDK/include -IC:/Users/Trey/Tablebound/MIT-Engine-demo/vendor -IC:/Users/Trey/Tablebound/MIT-Engine-demo/platforms -IC:/VulkanSDK/1.4.321.1/Include
+  OBJECT_DIR = CMakeFiles\MIT_Engine_demo.dir
+  OBJECT_FILE_DIR = CMakeFiles\MIT_Engine_demo.dir\platforms
 
 
 # =============================================================================
@@ -65,7 +89,7 @@ build CMakeFiles/MIT_Engine_demo.dir/main.cpp.obj: CXX_COMPILER__MIT_Engine_demo
 #############################################
 # Link the executable MIT_Engine_demo.exe
 
-build MIT_Engine_demo.exe: CXX_EXECUTABLE_LINKER__MIT_Engine_demo_Debug CMakeFiles/MIT_Engine_demo.dir/main.cpp.obj | C$:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/glfw-3.4/src/libglfw3.a C$:/VulkanSDK/1.4.321.1//Lib/vulkan-1.lib C$:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/OpenXR-SDK/build/src/loader/libopenxr_loader.a
+build MIT_Engine_demo.exe: CXX_EXECUTABLE_LINKER__MIT_Engine_demo_Debug CMakeFiles/MIT_Engine_demo.dir/main.cpp.obj CMakeFiles/MIT_Engine_demo.dir/platforms/VulkanAPI.cpp.obj CMakeFiles/MIT_Engine_demo.dir/platforms/MetalAPI.cpp.obj CMakeFiles/MIT_Engine_demo.dir/platforms/DirectXAPI.cpp.obj | C$:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/glfw-3.4/src/libglfw3.a C$:/VulkanSDK/1.4.321.1//Lib/vulkan-1.lib C$:/Users/Trey/Tablebound/MIT-Engine-demo/vendor/OpenXR-SDK/build/src/loader/libopenxr_loader.a
   CONFIG = Debug
   FLAGS = -g
   LINK_FLAGS = -mconsole -Wl,--subsystem,console

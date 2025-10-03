@@ -4,7 +4,12 @@ project(MIT_Engine_demo)
 set(CMAKE_CXX_STANDARD 17)
 
 file(GLOB ENGINE_SOURCES CONFIGURE_DEPENDS ${CMAKE_SOURCE_DIR}/main.cpp)
-add_executable(MIT_Engine_demo ${ENGINE_SOURCES})
+add_executable(MIT_Engine_demo ${ENGINE_SOURCES}
+        platforms/IGraphicsAPI.h
+        platforms/VulkanAPI.cpp
+        platforms/MetalAPI.cpp
+        platforms/MetalAPI.cpp
+        platforms/DirectXAPI.cpp)
 
 # Always include vendor headers
 target_include_directories(MIT_Engine_demo PRIVATE
@@ -12,6 +17,7 @@ target_include_directories(MIT_Engine_demo PRIVATE
         ${CMAKE_SOURCE_DIR}/vendor/glm
         ${CMAKE_SOURCE_DIR}/vendor/OpenXR-SDK/include
         ${CMAKE_SOURCE_DIR}/vendor/
+        ${CMAKE_SOURCE_DIR}/platforms/
 )
 
 if (WIN32)

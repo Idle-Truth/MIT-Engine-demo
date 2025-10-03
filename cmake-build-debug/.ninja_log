@@ -1,10 +1,17 @@
 # ninja log v6
-2	38	7811481132001290	C:/Users/Trey/Tablebound/MIT-Engine-demo/cmake-build-debug/CMakeFiles/cmake.verify_globs	477ddfa5fc5b10cd
-39	131	7811481031372492	CMakeFiles/MIT_Engine_demo.dir/main.cpp.obj	7171286a24fa357f
-131	286	7811481032295867	MIT_Engine_demo.exe	31960b8452e9a373
-2	26	7811481319107948	C:/Users/Trey/Tablebound/MIT-Engine-demo/cmake-build-debug/CMakeFiles/cmake.verify_globs	76d7ca5635f18995
-29	177	7811481319377945	MIT_Engine_demo.exe	1bba3fe58762d10e
-2	26	7811481789061696	C:/Users/Trey/Tablebound/MIT-Engine-demo/cmake-build-debug/CMakeFiles/cmake.verify_globs	76d7ca5635f18995
-28	119	7811481789315183	CMakeFiles/MIT_Engine_demo.dir/main.cpp.obj	7171286a24fa357f
-120	253	7811481790237839	MIT_Engine_demo.exe	1bba3fe58762d10e
-2	26	7811481804243186	C:/Users/Trey/Tablebound/MIT-Engine-demo/cmake-build-debug/CMakeFiles/cmake.verify_globs	76d7ca5635f18995
+2	24	7811531035793934	C:/Users/Trey/Tablebound/MIT-Engine-demo/cmake-build-debug/CMakeFiles/cmake.verify_globs	76d7ca5635f18995
+27	233	7811531036054402	CMakeFiles/MIT_Engine_demo.dir/main.cpp.obj	c1c0df9083c9bc02
+244	421	7811527872919763	MIT_Engine_demo.exe	a1bf6c9e212736dc
+34	104	7811514942906249	CMakeFiles/MIT_Engine_demo.dir/platforms/MetalAPI.cpp.obj	6250568f17a82c1f
+31	256	7811514942865263	CMakeFiles/MIT_Engine_demo.dir/platforms/Vulkan.cpp.obj	db831eea0a038d68
+38	107	7811514942936248	CMakeFiles/MIT_Engine_demo.dir/platforms/DirectXAPI.cpp.obj	7351994faf6e6a72
+30	244	7811527870777496	CMakeFiles/MIT_Engine_demo.dir/platforms/VulkanAPI.cpp.obj	81146094bdb988f3
+3	26	7811531783622792	C:/Users/Trey/Tablebound/MIT-Engine-demo/cmake-build-debug/CMakeFiles/cmake.verify_globs	76d7ca5635f18995
+29	224	7811531783884998	CMakeFiles/MIT_Engine_demo.dir/main.cpp.obj	c1c0df9083c9bc02
+3	25	7811532604150386	C:/Users/Trey/Tablebound/MIT-Engine-demo/cmake-build-debug/CMakeFiles/cmake.verify_globs	76d7ca5635f18995
+32	240	7811532604437654	CMakeFiles/MIT_Engine_demo.dir/platforms/VulkanAPI.cpp.obj	81146094bdb988f3
+28	241	7811532604396876	CMakeFiles/MIT_Engine_demo.dir/main.cpp.obj	c1c0df9083c9bc02
+241	410	7811532606522348	MIT_Engine_demo.exe	a1bf6c9e212736dc
+2	25	7811532619515916	C:/Users/Trey/Tablebound/MIT-Engine-demo/cmake-build-debug/CMakeFiles/cmake.verify_globs	76d7ca5635f18995
+2	24	7811538386827261	C:/Users/Trey/Tablebound/MIT-Engine-demo/cmake-build-debug/CMakeFiles/cmake.verify_globs	76d7ca5635f18995
+2	26	7811539469612209	C:/Users/Trey/Tablebound/MIT-Engine-demo/cmake-build-debug/CMakeFiles/cmake.verify_globs	76d7ca5635f18995
